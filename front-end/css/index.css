@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    right: 500px;
+    top: 20px;
+}
+header a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 150px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.home-btn{
+    color:#6D4BF8;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../assets/img/CATe\ slides-1\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Luckiest Guy', cursive;
+}
+.conteudo{
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+    font-size: 20px;
+    color: #fff;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteudo p{
+    text-align: right;
+}
+.conteudo h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+button{
+
+    background-color: #6D4BF8;
+    margin-top: 30px;
+    padding: 20px 24px;
+    border-radius: 10px;
+    border: none;
+}
+button p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
