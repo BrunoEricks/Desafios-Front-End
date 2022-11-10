@@ -16,6 +16,9 @@ header a{
     padding-left: 150px;
     font-family: 'Luckiest Guy', cursive;
 }
+span{
+    color: #6D4BF8;
+}
 .home-btn{
     color:#6D4BF8;
 }
@@ -67,4 +70,61 @@ button p{
     font-weight: 400;
     line-height: 10px;
     font-family: 'Luckiest Guy', cursive;
+}
+/*paina 2*/
+.lista-de-gatos{
+    width: 1024px;
+    height: 500px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    column-gap: 2em;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div img{
+    width: 100%;
+}
+
+@media (min-width:320px) and (max-width:500px ){
+    .background{
+        
+        flex-direction: column;
+    }
+    header{
+        right: 0;
+    }
+    .conteudo{
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo p{
+        text-align: center;
+    }
+    button{
+        padding: 20px 30px;
+    }
+    button p{
+        font-size: 20px;
+    }
+    .lista-de-gatos{
+
+        width: 80%;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        column-gap: 1em;
+        row-gap: 1em;
+    }
+    
 }
